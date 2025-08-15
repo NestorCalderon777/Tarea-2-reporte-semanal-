@@ -10,7 +10,7 @@ def min_clicks(n, m):
             c += m - n
             n = m
         c += 1  # Contamos el paso actual
-    # Si n > m (caso muy raro), solo restamos
+    # Si n > m solo restamos
     if n > m:
         c += n - m
     return c
@@ -21,6 +21,7 @@ def min_clicks(n, m):
 print(min_clicks(10, 10)) # Salida esperada 0
 print(min_clicks(10000,1)) # Salida esperada 9999
 print(min_clicks(2,16)) # Salida esperada 3
+
 
 
 
