@@ -20,7 +20,7 @@ def min_clicks(n, m):
             
     
 
-# Ejemplos del enunciado
+# Ejemplos del enunciado + casos que presentan mayor dificultad
 print(min_clicks(4, 6))   
 print(min_clicks(10, 1))  
 print(min_clicks(10000,1))
