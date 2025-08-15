@@ -26,7 +26,8 @@ def min_clicks(n, m):
     
 
 # Ejemplos del enunciado + casos que presentan mayor dificultad para el algoritmo
-print(min_clicks(4, 6))   
-print(min_clicks(10, 1))  
-print(min_clicks(10000,1))
+print(min_clicks(4, 6)) # Salida esperada 2
+print(min_clicks(10, 1)) # Salida esperada 9
+print(min_clicks(10000,1)) # Salida esperada 9999
+
 
